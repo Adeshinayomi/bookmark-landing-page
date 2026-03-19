@@ -11,6 +11,9 @@ export default {
         Red400: "hsl(0, 94%, 66%)",
         Grey50: "hsl(0, 0%, 97%)",
         Blue950: "hsl(229, 31%, 21%)"
+      },
+      fontFamily:{
+        rubik:["Rubik", "sans-serif"]
       }
     },
   },
