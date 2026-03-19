@@ -4,7 +4,7 @@ import operaLogo from '../assets/images/logo-opera.svg'
 import dots from '../assets/images/bg-dots.svg'
 export function Extensions(){
     return(
-        <section className="mt-20 w-5/6 mx-auto grid gap-10">
+        <section className="mt-40 w-5/6 mx-auto grid gap-10">
             <div className="grid text-center gap-5">
                 <h1 className="text-2xl font-bold"> Download the extension</h1>
                 <p className="text-black/50 font-medium">
@@ -28,7 +28,7 @@ export function Extensions(){
                 </div>
                 <div className='w-full grid bg-white shadow-xl justify-center gap-10 py-5 rounded-lg'>
                     <div className='grid justify-center text-center gap-2'>
-                        <img src={firefoxLogo} alt="chrome logo" className='justify-self-center'/>
+                        <img src={firefoxLogo} alt="firefox logo" className='justify-self-center'/>
                         <h2 className='font-bold text-lg'>Add to Firefox</h2>
                         <span className='text-black/50 font-medium'>Minimum version 55</span>
                     </div>
@@ -40,7 +40,7 @@ export function Extensions(){
                 </div> 
                 <div className='w-full grid bg-white shadow-xl justify-center gap-10 py-5 rounded-lg'>
                     <div className='grid justify-center text-center gap-2'>
-                        <img src={operaLogo} alt="chrome logo" className='justify-self-center'/>
+                        <img src={operaLogo} alt="Opera logo" className='justify-self-center'/>
                         <h2 className='font-bold text-lg'>Add to Opera</h2>
                         <span className='text-black/50 font-medium'>Minimum version 46</span>
                     </div>
