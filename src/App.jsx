@@ -5,6 +5,7 @@ import { Features } from './components/Features'
 import { Extensions } from './components/Extensions'
 import { FAQ } from './components/FAQ'
 import { Newsletter } from './components/Newsletter'
+import { Footer } from './components/Footer'
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <FAQ />
       </main>
       <Newsletter />
+      <Footer />
     </>
   )
 }
