@@ -28,7 +28,7 @@ export function Features(){
                 </div>
                 <div className='w-5/6 mx-auto grid gap-3'>
                     <h1 className='text-2xl font-bold text-center'>Bookmark in one click</h1>
-                    <p className='text-black/50 text-center'>
+                    <p className='text-black/50 text-center font-medium'>
                         Organize your bookmarks however you like. Our simple drag-and-drop interface 
                         gives you complete control over how you manage your favourite sites.
                     </p>
