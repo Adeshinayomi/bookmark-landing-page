@@ -22,8 +22,8 @@ export function Hero(){
                         browser tab and see your sites load instantly. Try it for free.
                     </p>
                     <div className='flex justify-between gap-4 md:w-fit'>
-                        <button className='px-4 py-3 bg-Blue600 text-white font-medium rounded-md'>Get it on Chrome</button>
-                        <button className='px-4 py-3 bg-Grey50 text-black/75 font-medium rounded-md shadow-xl'>Get it on Firefox</button>
+                        <button className='px-4 py-3 bg-Blue600 text-white font-medium rounded-md hover:bg-transparent hover:border hover:border-Blue600 hover:text-Blue600'>Get it on Chrome</button>
+                        <button className='px-4 py-3 bg-Grey50 text-black/75 font-medium rounded-md shadow-xl hover:bg-transparent hover:border hover:border-black hover:text-black'>Get it on Firefox</button>
                     </div>
                 </div>
             </div>    

@@ -9,7 +9,7 @@ export function Newsletter(){
                 <div className="grid gap-5 md:flex md:justify-self-center">
                     <input type="email" name="email" id="email" placeholder="Enter your email address" required
                     className="px-4 py-4 rounded-md md:px-6"/>
-                    <button className="bg-Red400 py-3 rounded-md font-medium text-lg md:px-6">Contact Us</button>
+                    <button className="bg-Red400 py-3 rounded-md font-medium text-lg md:px-6 hover:bg-white hover:border-2 hover:border-Red400 hover:text-Red400">Contact Us</button>
                 </div>
             </div>               
         </form>

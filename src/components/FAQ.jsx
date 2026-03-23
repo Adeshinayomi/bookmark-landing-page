@@ -13,7 +13,7 @@ export function FAQ(){
             <div className='grid gap-7'>
                 <div className='grid gap-5'>
                     <div className='flex justify-between items-center'>
-                        <h1 className='text-md font-bold'>What is Bookmark?</h1>
+                        <h1 className='text-md font-bold hover:text-Red400'>What is Bookmark?</h1>
                         <button>
                             <img src={arrow} alt="arrow icon" />
                         </button>
@@ -26,7 +26,7 @@ export function FAQ(){
                 </div>      
                 <div className='grid gap-5'>
                     <div className='flex justify-between items-center'>
-                        <h1 className='text-md font-bold'>How can I request a new browser?</h1>
+                        <h1 className='text-md font-bold hover:text-Red400'>How can I request a new browser?</h1>
                         <button>
                             <img src={arrow} alt="arrow icon" />
                         </button>
@@ -41,7 +41,7 @@ export function FAQ(){
                 </div>  
                 <div className='grid gap-5'>
                     <div className='flex justify-between items-center'>
-                        <h1 className='text-md font-bold'>Is there a mobile app?</h1>
+                        <h1 className='text-md font-bold hover:text-Red400'>Is there a mobile app?</h1>
                         <button>
                             <img src={arrow} alt="arrow icon" />
                         </button>
@@ -55,7 +55,7 @@ export function FAQ(){
                 </div>                
                 <div className='grid gap-5'>
                     <div className='flex justify-between items-center'>
-                        <h1 className='text-md font-bold'>What about other Chromium browsers?</h1>
+                        <h1 className='text-md font-bold hover:text-Red400'>What about other Chromium browsers?</h1>
                         <button>
                             <img src={arrow} alt="arrow icon" />
                         </button>
@@ -67,7 +67,7 @@ export function FAQ(){
                     <hr />
                 </div>                                                                                    
             </div>
-            <button className='justify-self-center py-4 px-6 bg-Blue600 text-white rounded-md font-bold'>
+            <button className='justify-self-center py-4 px-6 bg-Blue600 text-white rounded-md font-bold hover:bg-transparent hover:border hover:border-Blue600 hover:text-Blue600'>
                 More Info
             </button>
         </section>

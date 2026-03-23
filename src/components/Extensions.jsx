@@ -23,7 +23,7 @@ export function Extensions(){
                     
                     <div className='grid justify-center gap-4 md:gap-6'>
                         <img src={dots} alt="dots" />
-                        <button className='bg-Blue600 py-3 rounded-md text-white font-bold'>Add & Install Extension</button>
+                        <button className='bg-Blue600 py-3 rounded-md text-white font-bold hover:bg-transparent hover:border hover:border-Blue600 hover:text-Blue600'>Add & Install Extension</button>
                     </div>
                 </div>
                 <div className='w-full grid bg-white shadow-xl justify-center gap-10 py-5 rounded-lg relative top-10 md:px-5'>
@@ -35,7 +35,7 @@ export function Extensions(){
                     
                     <div className='grid justify-center gap-4 '>
                         <img src={dots} alt="dots" />
-                        <button className='bg-Blue600 py-3 rounded-md text-white font-bold'>Add & Install Extension</button>
+                        <button className='bg-Blue600 py-3 rounded-md text-white font-bold hover:bg-transparent hover:border hover:border-Blue600 hover:text-Blue600'>Add & Install Extension</button>
                     </div>
                 </div> 
                 <div className='w-full grid bg-white shadow-xl justify-center gap-10 py-5 rounded-lg relative top-20 md:px-5'>
@@ -47,7 +47,7 @@ export function Extensions(){
                     
                     <div className='grid justify-center gap-4 '>
                         <img src={dots} alt="dots" />
-                        <button className='bg-Blue600 py-3 rounded-md text-white font-bold'>Add & Install Extension</button>
+                        <button className='bg-Blue600 py-3 rounded-md text-white font-bold hover:bg-transparent hover:border hover:border-Blue600 hover:text-Blue600'>Add & Install Extension</button>
                     </div>
                 </div>                                
             </div>

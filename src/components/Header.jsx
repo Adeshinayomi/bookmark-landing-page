@@ -9,10 +9,10 @@ export function Header(){
                 </div>
                 
                 <ul className='hidden md:flex gap-5 md:text-sm text-black/50 font-medium items-center'>
-                    <li><a href="#">FEATURE</a></li>
-                    <li><a href="#">PRICING</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><button className='px-4 py-2 text-white font-bold bg-Red400 rounded-md md:text-sm'>LOGIN</button></li>
+                    <li><a href="#" className='hover:text-Red400'>FEATURE</a></li>
+                    <li><a href="#" className='hover:text-Red400'>PRICING</a></li>
+                    <li><a href="#" className='hover:text-Red400'>CONTACT</a></li>
+                    <li><button className='px-4 py-2 text-white font-bold bg-Red400 rounded-md md:text-sm hover:bg-transparent hover:border hover:border-Red400 hover:text-Red400'>LOGIN</button></li>
                 </ul>
                 <button className='md:hidden'>
                     <img src={hamburger} alt="hamburger icon" width={20}/>
