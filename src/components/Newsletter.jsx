@@ -6,10 +6,10 @@ export function Newsletter(){
                     <span className="tracking-[.2rem]">35,000+ ALREADY JOINED</span>
                     <h1 className="text-2xl font-medium">Stay up-to-date with what we’re doing</h1>
                 </div>
-                <div className="grid gap-5">
+                <div className="grid gap-5 md:flex md:justify-self-center">
                     <input type="email" name="email" id="email" placeholder="Enter your email address" required
-                    className="px-4 py-4 rounded-md"/>
-                    <button className="bg-Red400 py-3 rounded-md font-medium text-lg">Contact Us</button>
+                    className="px-4 py-4 rounded-md md:px-6"/>
+                    <button className="bg-Red400 py-3 rounded-md font-medium text-lg md:px-6">Contact Us</button>
                 </div>
             </div>               
         </form>

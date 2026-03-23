@@ -1,25 +1,32 @@
 import heroImage from '../assets/images/illustration-hero.svg'
 export function Hero(){
     return(
-        <section className='h-screen mt-16 grid gap-10 justify-center items-center place-content-center'>
-            <div className='relative'>
-                <img src={heroImage} alt="hero image" />
-                <div className='absolute top-20 -z-10 right-0 h-48 w-5/6 rounded-l-full bg-Blue600'></div>
-            </div>
-            
-            <div className='w-5/6 mx-auto grid gap-7'>
-                <h1 className='text-3xl font-bold text-center'>
-                    A Simple Bookmark Manager
-                </h1>
-                <p className='text-center text-black/25 font-medium'>
-                    A clean and simple interface to organize your favourite websites. Open a new 
-                    browser tab and see your sites load instantly. Try it for free.
-                </p>
-                <div className='flex justify-between'>
-                    <button className='px-4 py-3 bg-Blue600 text-white font-medium rounded-md'>Get it on Chrome</button>
-                    <button className='px-4 py-3 bg-Grey50 text-black/75 font-medium rounded-md shadow-xl'>Get it on Firefox</button>
+        <section className='mt-16'>
+            <div className='w-5/6 mx-auto grid gap-10 justify-center items-center place-content-center  md:flex lg:flex flex-row-reverse'>
+                <div className='w-full'>
+                    <img src={heroImage} alt="hero image" className='w-full h-full'/>
+                    <div className='hidden lg:flex -z-10 absolute w-1/3 h-60 bg-Blue600 top-60 right-0 rounded-l-full'>
+
+                    </div>
+                    <div className='flex lg:hidden -z-10 absolute w-2/3 md:w-1/3 h-40  bg-Blue600 top-[30%] md:top-[22%] right-0 rounded-l-full'>
+
+                    </div>
                 </div>
-            </div>
+                
+                <div className='w-full grid gap-7 '>
+                    <h1 className='text-3xl font-bold text-center md:text-left lg:text-left lg:w-2/3'>
+                        A Simple Bookmark Manager
+                    </h1>
+                    <p className='text-center text-black/25 font-medium md:text-left lg:text-left lg:w-5/6'>
+                        A clean and simple interface to organize your favourite websites. Open a new 
+                        browser tab and see your sites load instantly. Try it for free.
+                    </p>
+                    <div className='flex justify-between gap-4 md:w-fit'>
+                        <button className='px-4 py-3 bg-Blue600 text-white font-medium rounded-md'>Get it on Chrome</button>
+                        <button className='px-4 py-3 bg-Grey50 text-black/75 font-medium rounded-md shadow-xl'>Get it on Firefox</button>
+                    </div>
+                </div>
+            </div>    
         </section>
     )
 }

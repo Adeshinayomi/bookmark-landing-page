@@ -1,7 +1,7 @@
 import arrow from '../assets/images/icon-arrow.svg'
 export function FAQ(){
     return(
-        <section className="w-5/6 mx-auto mt-40 grid gap-10">
+        <section className="w-5/6 mx-auto mt-40 grid gap-10 md:w-1/2 md:mt-40">
             <div className="text-center grid gap-2">
                 <h1 className="text-2xl font-bold w-2/3 mx-auto">Frequently Asked Questions</h1>
                 <p className="text-black/50 font-medium">
