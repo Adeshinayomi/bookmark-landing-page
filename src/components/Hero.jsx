@@ -1,7 +1,7 @@
 import heroImage from '../assets/images/illustration-hero.svg'
 export function Hero(){
     return(
-        <section className='mt-16'>
+        <section className='mt-[9rem]'>
             <div className='w-5/6 mx-auto grid gap-10 justify-center items-center place-content-center  md:flex lg:flex flex-row-reverse'>
                 <div className='w-full'>
                     <img src={heroImage} alt="hero image" className='w-full h-full'/>
